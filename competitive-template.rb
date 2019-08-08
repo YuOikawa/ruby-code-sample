@@ -3,7 +3,7 @@
 a,b = gets.split.map(&:to_i)
 
 # 上記を配列に格納する
-s = gets.split("").map(&:to_i)
+s = gets.split(" ").map(&:to_i)
 
 # 文字列を取得
 s = gets.chop
